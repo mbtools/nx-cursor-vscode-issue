@@ -1,0 +1,13 @@
+node_modules
+build
+
+# Nx
+.nx/cache
+.nx/workspace-data
+.nx/polygraph
+.cursor\rules\nx-rules.mdc
+.github\instructions\nx.instructions.md
+
+# Vite
+vite.config.*.timestamp*
+vitest.config.*.timestamp*

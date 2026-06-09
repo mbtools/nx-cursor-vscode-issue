@@ -1,0 +1,36 @@
+packages:
+  - packages/*
+
+catalog:
+  '@eslint/js': 10.0.1
+  '@nx/eslint': 22.7.5
+  '@nx/js': 22.7.5
+  '@nx/vite': 22.7.5
+  '@nx/vitest': 22.7.5
+  '@nx/web': 22.7.5
+  eslint: 10.4.1
+  nx: 22.7.5
+  typescript-eslint: 8.60.1
+  vite: 8.0.16
+  vite-plugin-dts: 5.0.2
+  vitest: 4.1.8
+
+catalogMode: strict
+
+cleanupUnusedCatalogs: true
+
+onlyBuiltDependencies:
+  - nx
+
+minimumReleaseAge: 120 # 2 hours
+
+minimumReleaseAgeExclude:
+  - '@verdaccio/*'
+  - '@verdaccio-pro/*'
+  - 'verdaccio-*'
+
+saveExact: true
+
+ignoreScripts: true
+
+preferFrozenLockfile: true

@@ -1,0 +1,32 @@
+{
+  "name": "nxtest",
+  "version": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Marc Bernard",
+    "url": "https://github.com/mbtools"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "nx run-many -t build",
+    "build:nocache": "nx run-many -t build --no-cache",
+    "lint": "nx run-many -t lint",
+    "lint:fix": "nx run-many -t lint:fix",
+    "lint:nocache": "nx run-many -t lint --no-cache"
+  },
+  "packageManager": "pnpm@11.1.3",
+  "devDependencies": {
+    "@eslint/js": "catalog:",
+    "@nx/eslint": "catalog:",
+    "@nx/js": "catalog:",
+    "@nx/vite": "catalog:",
+    "@nx/vitest": "catalog:",
+    "@nx/web": "catalog:",
+    "eslint": "catalog:",
+    "nx": "catalog:",
+    "typescript-eslint": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:",
+    "vitest": "catalog:"
+  }
+}
